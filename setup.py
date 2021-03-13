@@ -28,7 +28,7 @@ def read_python_version() -> str:
     return pipfile.load().data['_meta']['requires']['python_version']
 
 
-setup(name='aws-sso',
+setup(name='pearsonr',
       version=infer_version(),
       url='https://github.com/rkhullar/pearsonr-pure-python',
       author='Rajan Khullar',
